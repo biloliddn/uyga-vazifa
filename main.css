@@ -1,0 +1,113 @@
+.header {
+  background-color: rgba(51, 180, 59, 0.817);
+}
+.header_block {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.header_logo {
+  width: 250px;
+}
+.header_list {
+  display: flex;
+  gap: 60px;
+}
+.header_link {
+  font-size: 28px;
+  color: black;
+}
+.header_link:hover {
+  color: white;
+  transition: .5s;
+}
+
+/* hero start */
+
+.hero {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.hero_title {
+  font-size: 37px;
+  margin-bottom: 20px;
+  color: rgba(52, 98, 55, 0.817);
+}
+.hero_text {
+  font-size: 27px;
+  color: rgba(52, 98, 55, 0.817);
+}
+.hero_list {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.hero_item__text {
+  font-size: 23px;
+  color: rgba(52, 98, 55, 0.817);
+}
+
+/* hero end */
+
+/* service start */
+
+.service {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.service_title {
+  font-size: 37px;
+  margin-bottom: 20px;
+  color: rgba(19, 64, 109, 0.817);
+}
+.service_text {
+  font-size: 27px;
+  color: rgba(19, 64, 109, 0.817);
+}
+.service_list {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.service_item__text {
+  font-size: 23px;
+  color: rgba(19, 64, 109, 0.817);
+}
+
+/* service end */
+
+/* about start */
+
+.about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about_title {
+    font-size: 37px;
+    margin-bottom: 20px;
+    color: rgba(153, 183, 37);
+}
+.about_text {
+    font-size: 27px;
+    color: rgb(153, 183, 37);
+}
+.about_list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.about_item__text {
+    font-size: 23px;
+    color: rgba(153, 183, 37);
+}
+
+/* about end */
+
+body {
+    background-color: rgb(220, 218, 218);
+}

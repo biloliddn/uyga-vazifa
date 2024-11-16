@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header_block">
+          <div class="header_logo__block">
+            <a class="header_logo" href="#">
+              <img src="./img/fhot.svg" alt="" />
+            </a>
+          </div>
+          <nav class="header_navbar">
+            <ul class="header_list">
+              <li class="header_item">
+                <a class="header_link" href="#mutatsion">Mutatsion metodlar</a>
+              </li>
+              <li class="header_item">
+                <a class="header_link" href="#immutsion">Immutsion metodlar</a>
+              </li>
+              <li class="header_item">
+                <a class="header_link" href="#qidiruv">Qidiruv metodlari</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero" id="#mutatsion">
+        <div class="container">
+          <div class="hero_block">
+            <h1 class="hero_title">
+              Mutatsion (Mutation) metodlar
+            </h1>
+            <p class="hero_text">
+              Bu metodlar original massivni o'zgartiradi. Ular yangi massiv
+              qaytarmaydi.
+            </p>
+            <ul class="hero_list">
+              <li class="hero_item">
+                <p class="hero_item__text">
+                  1. push(): Massivning oxiriga yangi element qo'shadi.
+                </p>
+              </li>
+              <li class="hero_item">
+                <p class="hero_item__text">
+                  2. pop(): Massivning oxiridan elementni olib tashlaydi.
+                </p>
+              </li>
+              <li class="hero_item">
+                <p class="hero_item__text">
+                  3. shift(): Massivning boshidan elementni olib tashlaydi.
+                </p>
+              </li>
+              <li class="hero_item">
+                <p class="hero_item__text">
+                  4. unshift(): Massivning boshiga yangi element qo'shadi.
+                </p>
+              </li>
+              <li class="hero_item">
+                <p class="hero_item__text">
+                  5. splice(): Massivdan elementlarni olib tashlaydi,
+                  almashtiradi yoki yangi elementlar qo'shadi.
+                </p>
+              </li>
+              <li class="hero_item">
+                <p class="hero_item__text">
+                  6. sort(): Massiv elementlarini tartiblaydi.
+                </p>
+              </li>
+              <li class="hero_item">
+                <p class="hero_item__text">
+                  7. reverse(): Massivni teskari tartibga o'zgartiradi.
+                </p>
+              </li>
+              <li class="hero_item">
+                <p class="hero_item__text">
+                  8. fill(): Massivni ma'lum qiymatlar bilan to'ldiradi.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="service" id="#immutsion">
+        <div class="container">
+          <div class="service_block">
+            <h1 class="service_title">
+              Immutsion (Immutable) metodlar
+            </h1>
+            <p class="service_text">
+              Bu metodlar asl massivni o'zgartirmaydi, balki yangi massiv
+              yaratadi.
+            </p>
+            <ul class="service_list">
+              <li class="service_item">
+                <p class="service_item__text">
+                  1. slice(): Massivning bir qismini yangi massiv sifatida
+                  qaytaradi.
+                </p>
+              </li>
+              <li class="service_item">
+                <p class="service_item__text">
+                  2. concat(): Ikki yoki undan ko'p massivlarni birlashtiradi va
+                  yangi massiv qaytaradi.
+                </p>
+              </li>
+              <li class="service_item">
+                <p class="service_item__text">
+                  3. map(): Har bir elementga amal bajarib, yangi massiv
+                  yaratadi.
+                </p>
+              </li>
+              <li class="service_item">
+                <p class="service_item__text">
+                  4. filter(): Belgilangan shartga mos keladigan elementlarni
+                  yangi massivga yig'adi.
+                </p>
+              </li>
+              <li class="service_item">
+                <p class="service_item__text">
+                  5. reduce(): Massivdagi qiymatlarni bitta qiymatga
+                  umumlashtiradi.
+                </p>
+              </li>
+              <li class="service_item">
+                <p class="service_item__text">
+                  6. flat(): Ichma-ich massivlarni tekislaydi va yangi massiv
+                  qaytaradi.
+                </p>
+              </li>
+              <li class="service_item">
+                <p class="service_item__text">
+                  7. join(): Massiv elementlarini birlashtirib, string (matn)
+                  ko'rinishida qaytaradi.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="#qidiruv">
+        <div class="container">
+          <div class="about_block">
+            <h1 class="about_title">Qidiruv metodlari</h1>
+            <p class="about_text">
+              Massivdagi elementlarni topish yoki tekshirish uchun ishlatiladi.
+              Bu metodlar massivni o'zgartirmaydi.
+            </p>
+            <ul class="about_list">
+              <li class="about_item">
+                <p class="about_item__text">
+                  1. indexOf(): Belgilangan elementning indeksini qaytaradi
+                  (birinchi uchraganini).
+                </p>
+              </li>
+              <li class="about_item">
+                <p class="about_item__text">
+                  2. lastIndexOf(): Belgilangan elementning oxirgi indeksini
+                  qaytaradi.
+                </p>
+              </li>
+              <li class="about_item">
+                <p class="about_item__text">
+                  3. includes(): Belgilangan element massivda borligini true
+                  yoki false ko'rinishida qaytaradi.
+                </p>
+              </li>
+              <li class="about_item">
+                <p class="about_item__text">
+                  4. find(): Shartga mos keladigan birinchi elementni qaytaradi.
+                </p>
+              </li>
+              <li class="about_item">
+                <p class="about_item__text">
+                  5. findIndex(): Shartga mos keladigan birinchi elementning
+                  indeksini qaytaradi.
+                </p>
+              </li>
+              <li class="about_item">
+                <p class="about_item__text">
+                  6. some(): Massivdagi kamida bitta element shartga mos
+                  keladimi-yo'qmi, tekshiradi.
+                </p>
+              </li>
+              <li class="about_item">
+                <p class="about_item__text">
+                  7. every(): Massivdagi barcha elementlar shartga mos keladimi,
+                  tekshiradi.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
